@@ -247,7 +247,7 @@
          <h1 class="text-5xl font-extrabold text-center mb-5">News & Events</h1>
          <p class="w-[80%] text-center mx-auto dark-1">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
          <!-- box container for the card design  -->
-          <div class="container w-[100%] grid grid-cols-1 md:grid-cols-3 gap-10 pr-20 pl-20 py-10">
+          <div class="container w-[100%] grid grid-cols-1 md:grid-cols-3 place-items-center items-center gap-10 p-4 md:p-15">
             <!-- box - 1 -->
              <div class="w-[350px] max-h-[450px] p-5 shadow-lg rounded-2xl">
               <img src="photos/news-1.png" alt="green_tea">
@@ -275,6 +275,57 @@
           </div>
        </section>
     </main>
-    <footer></footer>
+    <footer class="w-[100%] min-h-[600px] bg-[#FFEDE9] p-4 md:p-40">
+      <!-- first part  -->
+       <div class="flex items-center justify-center md:justify-between">
+        <img src="photos/cup.png" alt="Cup" class="hidden md:block">
+        <!-- under the first part -->
+         <div class="flex items-center gap-8">
+          <p>Ready to get started?</p>
+          <button class="bg-gradient-to-t from-[#FF0000] to-[#FF8938] py-4 px-8 rounded-xl text-white font-bold">Get Started</button>
+         </div>
+       </div>
+       <!-- second part  -->
+        <div class="flex flex-col md:flex-row items-start
+         md:items-start justify-start md:justify-between my-[100px]">
+          <!-- first section under second part  -->
+           <div class="flex flex-col gap-4">
+            <h3 class="font-bold">Quick Links</h3>
+            <a href="#" class="block">Home</a>
+            <a href="#" class="block">About</a>
+            <a href="#" class="block">Insurence</a>
+            <a href="#" class="block">Privacy and Policy</a>
+           </div>
+           <!-- second section under the second part  -->
+            <div class="flex flex-col gap-4">
+            <h3 class="font-bold">Our Services</h3>
+            <a href="#" class="block">Life Insurence</a>
+            <a href="#" class="block">Car Insurence</a>
+            <a href="#" class="block">Health Insurence</a>
+            <a href="#" class="block">House Insurence</a>
+           </div>
+           <!-- third section after the second part  -->
+           <div class="flex flex-col gap-4">
+            <h3 class="font-bold">Help</h3>
+            <p>FAQs</p>
+            <p>Contact Us</p>
+           </div>
+           <!-- forth section under the second part  -->
+           <div class="flex flex-col gap-8">
+            <h3 class="text-xl font-bold max-w-[200px]">Subscribe to Our newsletter</h3>
+            <input type="email" placeholder="Email Address" class="border-b p-2">
+            <!-- icons  -->
+             <div class="text-2xl">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+             </div>
+           </div>
+        </div>
+        <!-- third part of the footer-->
+          <div class="text-center">
+              <p>&copy; 2027 Designed by Shakib || All Rights Reserved</p>
+          </div>
+    </footer>
   </body>
 </html>
